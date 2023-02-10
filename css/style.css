@@ -36,7 +36,7 @@ header {
     align-content:space-between;
     max-width: 100%;
     background-color: rgb(211, 211, 243);
-    width: 1000px;
+    width: 1050px;
     
 }
 
@@ -60,7 +60,7 @@ body {
 
 .copy {
     background-color: rgba(148, 46, 251, 0.241);
-    width: 1000px;
+    width: 1050px;
     height: 100px;
     margin-right: auto;
     margin-left: auto;
@@ -149,6 +149,7 @@ a:active {
 .card header {
 border: none;
 background-color: lavender;
+
 } 
 
 
