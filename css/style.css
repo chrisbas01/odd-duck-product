@@ -133,7 +133,7 @@ a {
 }
 a:hover {
     box-shadow: 0 80px 63px -60px #180944;
-    animation: bounce .3s infinite alternate;
+    animation: bounce .5s infinite alternate;
     transition: 1.6em;
 }
 a:active {
