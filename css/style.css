@@ -71,7 +71,7 @@ body {
     -webkit-text-stroke-color: white;
     border: 1px solid rgba(128, 0, 128, 0.105);  
     box: shadow 10px,10px,0px,10px;
-    b;
+    
     border-bottom: none;
     
     
@@ -117,20 +117,35 @@ li {
 
 a {
    
-width: 80px;
-text-decoration: none;
-text-align: center;
-align-items: baseline;
-justify-content:space-around;
-display: inline-block;
-margin-left: 50px;
-margin-right: 50px;
-border: 2px solid rgba(201, 201, 251, 0.304);
-background-color: rgba(252, 252, 255, 0.38);
-color: rgb(0, 109, 145);
-margin-bottom: 20px;
- 
+    width: 80px;
+    text-decoration: none;
+    text-align: center;
+    align-items: baseline;
+    justify-content:space-around;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid rgba(201, 201, 251, 0.51);
+    background-color: rgba(252, 252, 255, 0.552);
+    color: rgb(0, 109, 145);
+    margin-bottom: 20px;
+
 }
+a:hover {
+    box-shadow: 0 80px 63px -60px #180944;
+    animation: bounce .3s infinite alternate;
+    transition: 0.3em;
+}
+a:active {
+    animation: translateY(5px);
+    box-shadow: 0 40px 63px -60px #132A13;
+}
+
+@keyframes bounce {
+    to {
+        transform: scale(1.2);
+    }
+
 .card header {
 border: none;
 background-color: lavender;
@@ -146,4 +161,12 @@ p {
 }
 .deck-col-2{
     border: none;
+}
+.add {
+    border-radius: 10px;
+    border: none;
+    box-shadow:#132A13;
+    font-family: inherit;
+    font-size: 50px!important;
+    background-color: #2b0893;
 }
