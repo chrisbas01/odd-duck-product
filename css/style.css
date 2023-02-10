@@ -1,0 +1,149 @@
+/* TODO: Make it awesome */
+
+h1 {
+    
+    
+    font-size: 35px;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 191, 255);
+    border: none;
+    width: 90%;
+}
+
+#catalog{
+    
+}
+
+ul {
+    
+    text-align: center;
+    margin: 10px;
+    
+}
+a {
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+header {
+    align-items: stretch;
+    border: 1px solid rgba(188, 175, 188, 0.42);
+    display: inline-block;
+    align-content:space-between;
+    max-width: 100%;
+    background-color: rgb(211, 211, 243);
+    width: 1000px;
+    
+}
+
+.card  {
+    
+    }    
+    
+
+
+body {
+    background-color: lavender;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 10px solid rgba(186, 183, 186, 0.412);
+    box-shadow: 5px;
+    padding: 10px;
+   height: 100%;
+} 
+
+.copy {
+    background-color: rgba(148, 46, 251, 0.241);
+    width: 1000px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(6, 6, 216);
+    border-radius: 1%;
+    font-size: 18px;
+    -webkit-text-stroke: .2px;
+    -webkit-text-stroke-color: white;
+    border: 1px solid rgba(128, 0, 128, 0.105);  
+    box: shadow 10px,10px,0px,10px;
+    b;
+    border-bottom: none;
+    
+    
+}
+
+legend {
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.deck-col-2 {
+    border-top: none;
+
+
+}
+
+table {
+    
+
+
+}
+
+td {
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+th {
+    text-align: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    font-size: medium;
+    
+}
+
+li {
+}
+
+a {
+   
+width: 80px;
+text-decoration: none;
+text-align: center;
+align-items: baseline;
+justify-content:space-around;
+display: inline-block;
+margin-left: 50px;
+margin-right: 50px;
+border: 2px solid rgba(201, 201, 251, 0.304);
+background-color: rgba(252, 252, 255, 0.38);
+color: rgb(0, 109, 145);
+margin-bottom: 20px;
+ 
+}
+.card header {
+border: none;
+background-color: lavender;
+} 
+
+
+p {
+    margin-top: 10px;
+}
+
+.deck-col-1 {
+   border: none;
+}
+.deck-col-2{
+    border: none;
+}
