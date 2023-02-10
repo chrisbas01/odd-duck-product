@@ -37,6 +37,7 @@ header {
     max-width: 100%;
     background-color: rgb(211, 211, 243);
     width: 1050px;
+    margin-bottom: none;
     
 }
 
@@ -71,8 +72,9 @@ body {
     -webkit-text-stroke-color: white;
     border: 1px solid rgba(128, 0, 128, 0.105);  
     box: shadow 10px,10px,0px,10px;
-    
+    margin-bottom: none;
     border-bottom: none;
+    margin-top: none;
     
     
 }
@@ -84,6 +86,8 @@ legend {
 
 .deck-col-2 {
     border-top: none;
+    margin-top: none;
+    display: block;
 
 
 }
@@ -112,8 +116,6 @@ th {
     
 }
 
-li {
-}
 
 a {
    
@@ -159,8 +161,16 @@ p {
 
 .deck-col-1 {
    border: none;
+   margin-top: 0px;
 }
 .deck-col-2{
     border: none;
+    margin-top: none;
 }
 
+main {
+    margin-top: none;
+}
+section {
+    margin-top: none;
+}
